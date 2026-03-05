@@ -5,5 +5,8 @@ services:
     ports:
       - "8501:8501"
     volumes:
-      - ./.barcode-generator-configs:/app/.barcode-generator-configs
+      - barcode_generator_configs:/app/.barcode-generator-configs
     restart: unless-stopped
+
+volumes:
+  barcode_generator_configs:

@@ -177,8 +177,10 @@ Danach im Browser:
 - `http://localhost:8501`
 
 Hinweis:
-- Die Configs werden per Volume gemountet:
-  - `./.barcode-generator-configs:/app/.barcode-generator-configs`
+- Die Configs werden per Named Volume persistiert:
+  - `barcode_generator_configs:/app/.barcode-generator-configs`
+- Beim ersten Start werden die im Image enthaltenen Presets (z. B. `packaging.json`)
+  in das neue Volume übernommen.
 - OCR-B ist im Repo unter `fonts/OCRB.otf` enthalten und wird im Container nach
   `/usr/local/share/fonts/custom/OCRB.otf` installiert.
 - Für stabile SVG-Textpfade im Container kannst du z. B. setzen:
