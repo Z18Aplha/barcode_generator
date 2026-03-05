@@ -22,7 +22,7 @@ htmlcov/
 webapp/.streamlit/
 
 # Local config sets (generated at runtime)
-.barcode-generator-configs/
+# .barcode-generator-configs/
 
 # Generated barcode outputs
 barcode_*.svg

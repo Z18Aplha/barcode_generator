@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "settings": {
+    "output_format": "png",
+    "foreground": "#fffde7",
+    "background": "transparent",
+    "width_px": null,
+    "height_px": null,
+    "aspect_ratio": 5.0,
+    "no_text": false,
+    "text_layout": "ean-grouped",
+    "font_family": "OCR-B, OCRB, monospace",
+    "font_size": 17.0,
+    "text_color": null,
+    "leading_digit_offset": 0.0,
+    "text_y_offset": 2.0,
+    "embed_font_file": null,
+    "text_to_path": true,
+    "text_to_path_font_file": null,
+    "output_dir": "."
+  }
+}
