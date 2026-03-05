@@ -1,0 +1,9 @@
+services:
+  barcode-webapp:
+    build: .
+    container_name: barcode-webapp
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./.barcode-generator-configs:/app/.barcode-generator-configs
+    restart: unless-stopped

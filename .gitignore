@@ -1,0 +1,46 @@
+# Python cache / bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Tool caches / test artifacts
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Streamlit local state
+.streamlit/
+webapp/.streamlit/
+
+# Local config sets (generated at runtime)
+.barcode-generator-configs/
+
+# Generated barcode outputs
+barcode_*.svg
+barcode_*.png
+barcodes_*.zip
+
+# Generic local export folders often used during tests
+_*/
+out/
+output/
+dist/
+build/
+
+# IDE / OS noise
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
